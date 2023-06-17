@@ -113,7 +113,6 @@ JSON
 }
  19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 	Commit changes (Button)
-	Write a description and save
  20. Синхронизировать внешний и локальный репозиторий JSON
 	1 вариант.
 	git status (проверяем что все данные с пк были переданы)
