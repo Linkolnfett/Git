@@ -164,21 +164,36 @@ XML
 	i (button)
 <?xml version="1.0" encoding="windows-1251"?>
 <newXML Number="2" Date="2023-06-17">
-
-
     <Favorite>
         <movie>Star Wars</movie>
         <series>Scrubs</series>
         <food>Okroshka</food>
         <season>Summer</season>
     </Favorite>
-    <China>Country Id like to visit</China>
+    <Country_Id_like_to_visit>China</Country_Id_like_to_visit>
 </newXML>
-
-
-31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+	ESC
+	:wq
+31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены 
+на курсе в формате XML
+	touch sklls.xml
+	vim sklls.xml
+	i (button)
+<?xml version="1.0" encoding="windows-1251"?>
+<skills Number="3" Date="2023-06-17">
+    <Hard_skills>Basic theory:Forms and methods of QA testing,bug report,
+    SDLC,STLC,HTTP,JSON XML,Postman,Logs,Sniffing,DevTools,VPN,
+    Mobile testing,Terminal,Bash,Basic SQL,Postgres,Redis,Jmeter,
+    Scrum,Python</Hard_skills>
+</skills>
+	ESC
+	:x
  32. Сделать коммит в одну строку.
+	(файлы сначало надо добавить, в любом случае две команды)
+	git add . 
+	git commit -m "2 files"	
  33. Отправить сразу 2 файла на внешний репозиторий.
+	git push
  34. На веб интерфейсе создать файл bug_report.xml.
  35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
