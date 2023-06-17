@@ -101,12 +101,29 @@ JSON
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 	Push the button and comments changes
  18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
-	Click him
-	Edit this file 
-
+	Click file
+	Edit this file (Button)
+{  "id":"1",
+   "Severity":"Trivial",
+   "Environment":"Samsung S23, Android 13",
+   "Tiktok Button":"Page do not exists",
+   "Expected Result":"redirect to the right page Tiktok",
+   "Actual Result":"net::ERR_UNKNOWN_URL_SCHEME",
+   "Bug started":"Linkolnfett"
+}
  19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+	Commit changes (Button)
+	Write a description and save
  20. Синхронизировать внешний и локальный репозиторий JSON
-
+	1 вариант.
+	git status (проверяем что все данные с пк были переданы)
+	git clone https://github.com/Linkolnfett/JSON.git
+	2 вариант. 
+	git pull
+Fast-forward
+ bug_report.json | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+ create mode 100644 bug_report.json
 
 XML
  21. Создать внешний репозиторий c названием XML.
