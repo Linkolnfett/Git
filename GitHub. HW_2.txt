@@ -3,17 +3,49 @@ GitHub. HW_2
 - Postman
 - Jmeter
 - CheckLists
-- Bag Reports
+- Bag Reports 
 - SQL
 - Charles
-- Mobile testing
+- Mobile testing 
 
+git branch
+  Bug_reports
+  Charles
+  CheckLists
+  Jmeter
+  Mobile_testing
+  Postman
+  SQL
+* main
 2. Запушить все ветки на внешний репозиторий
+ 	git push origin --all
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Linkolnfett/Github.git
+ * [new branch]      Bug_reports -> Bug_reports
+ * [new branch]      Charles -> Charles
+ * [new branch]      CheckLists -> CheckLists
+ * [new branch]      Jmeter -> Jmeter
+ * [new branch]      Mobile_testing -> Mobile_testing
+ * [new branch]      Postman -> Postman
+ * [new branch]      SQL -> SQL
 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
+	git checkout Bug_reports
+Switched to branch 'Bug_reports'
+	vim Bug_report.txt
 4. Запушить структуру багрепорта на внешний репозиторий
+	git add Bug_report.txt
+	git commit -m "Push bug.txt"
+	git push --set-upstream origin Bug_reports
 5. Вмержить ветку Bag Reports в Main
+	git checkout main
+	git merge Bug_reports
 6. Запушить main на внешний репозиторий.
+	git add .
+	git commit -am "new adds"
+	git push
 7. В ветке CheckLists набросать структуру чек листа.
+	git checkout CheckLists
+	vim testlist.txt
 8. Запушить структуру на внешний репозиторий
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
 10. Синхронизировать Внешнюю и Локальную ветки Main
