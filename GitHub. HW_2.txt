@@ -3,12 +3,31 @@ GitHub. HW_2
 - Postman
 - Jmeter
 - CheckLists
-- Bag Reports
+- Bag Reports 
 - SQL
 - Charles
-- Mobile testing
+- Mobile testing 
 
+git branch
+  Bug_reports
+  Charles
+  CheckLists
+  Jmeter
+  Mobile_testing
+  Postman
+  SQL
+* main
 2. Запушить все ветки на внешний репозиторий
+ 	git push origin --all
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Linkolnfett/Github.git
+ * [new branch]      Bug_reports -> Bug_reports
+ * [new branch]      Charles -> Charles
+ * [new branch]      CheckLists -> CheckLists
+ * [new branch]      Jmeter -> Jmeter
+ * [new branch]      Mobile_testing -> Mobile_testing
+ * [new branch]      Postman -> Postman
+ * [new branch]      SQL -> SQL
 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
 4. Запушить структуру багрепорта на внешний репозиторий
 5. Вмержить ветку Bag Reports в Main
