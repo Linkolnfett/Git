@@ -47,5 +47,10 @@ Switched to branch 'Bug_reports'
 	git checkout CheckLists
 	vim testlist.txt
 8. Запушить структуру на внешний репозиторий
+	git add .
+	git commit -am "check.txt"
+	git push --set-upstream origin CheckLists
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+	done
 10. Синхронизировать Внешнюю и Локальную ветки Main
+	git pull
