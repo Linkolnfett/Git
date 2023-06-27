@@ -29,7 +29,11 @@ To https://github.com/Linkolnfett/Github.git
  * [new branch]      Postman -> Postman
  * [new branch]      SQL -> SQL
 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
+	git checkout Bug_reports
+Switched to branch 'Bug_reports'
+vim Bug_report.txt
 4. Запушить структуру багрепорта на внешний репозиторий
+
 5. Вмержить ветку Bag Reports в Main
 6. Запушить main на внешний репозиторий.
 7. В ветке CheckLists набросать структуру чек листа.
