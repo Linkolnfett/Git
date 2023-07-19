@@ -1,16 +1,3 @@
-GIT Homework 1  
-Для выполнения задания у вас должен быть установлен для Windows - GitBash.
-Создан аккаунт в GitHub
-
-Все шаги сценария выполняйте в терминале GitBush, Terminal, в папке под гитом.
-
-Как отправить ДЗ на проверку.
- 1. Создайте текстоовый файл как в первом ДЗ по Terminal. 
- 2. Сценарий перенесите в этот файл. 
- 3. На против каждого действия - напишите команду в GitBash
-
-Файл со сценарием и ссылку на свой гит хаб отправляйте менторам на проверку.
-
 JSON
  4. Создать внешний репозиторий c названием JSON. 
 	(New, Repository name JSON,add a readme file +, create )
@@ -20,8 +7,7 @@ JSON
 	cd JSON
 	touch new.json
  7. Добавить файл под гит.
-	git add new.json (or git add . all new in folder, 
-				git status help see that all correct)
+	git add new.json 				
  8. Закоммитить файл.
 	git commit -m "Lets go"
  9. Отправить файл на внешний GitHub репозиторий.
@@ -30,164 +16,66 @@ JSON
 (ФИО, возраст, количество домашних животных, будущая желаемая зарплата).
 Всё написать в формате JSON.
 	vim new.json
-	i (button)
-{
-        "Name": {"First name": "Pavel",
-                "Last name": "Skorik",
-                "Patronymic": "Sergeevich"
-        },
-        "Age":34,
-        "Pets":1,
-        "Salary requirement":"700-900$"
-        }
-	ESC (button)
-	:x
- 11. Отправить изменения на внешний репозиторий.
+11. Отправить изменения на внешний репозиторий.
 	git commit -am "Changes"
 	git push
- 12. Создать файл preferences.json
+12. Создать файл preferences.json
 	touch preferences.json
- 13. В файл preferences.json добавить информацию о своих предпочтениях 
+13. В файл preferences.json добавить информацию о своих предпочтениях 
 (Любимый фильм, любимый сериал, любимая еда, любимое время года, 
 страна которую хотели бы посетить) в формате JSON.
 	vim preferences.json
-	i (button)
-{
-        "Favorite movie":"Star Wars",
-        "Favorite series":"Scrubs",
-        "Favorite food":"Okroshka",
-        "Favorite season":"Summer",
-        "Country I'd like to visit":"China"
-}
-	ESC
-	:wq
- 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
-	touch skills.json
+14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
 	vim skills.json
-	i (button)
-{
-        "Hard skills":{
-                        "Basic theory":"Forms and methods of QA testing, bug report,SDLC,STLC",
-                        "HTTP":"Requests and responces",
-                        "JSON":"Structure",
-                        "XML":"Structure",
-                        "Postman":"API testing, automated testing",
-                        "Logs":"downloading and reading",
-                        "Sniffing":"Charles and Fiddler",
-                        "DevTools":"Chrome,FireFox",
-                        "VPN":"usage",
-                        "Mobile testing":"iOS,Android",
-                        "Terminal":"Linux Terminal",
-                        "Bash":"Basics",
-                        "Basic SQL":"Create,Delete,Drop,Insert Into,Select,From, Where, Join",
-                        "Postgres":"Usage",
-                        "Redis":"Usage",
-                        "Jmeter":"Load testing",
-                        "Scrum":"Development",
-                         "Python":"Basics"
-        }
-}
-	ESC
-	:x
- 15. Отправить сразу 2 файла на внешний репозиторий.
- 	git add preferences.json skills.json
+15. Отправить сразу 2 файла на внешний репозиторий.
+ 	git add preferences.json skills.json (or .)
 	git commit -m "2 new files"
 	git push
- 16. На веб интерфейсе создать файл bug_report.json.
+16. На веб интерфейсе создать файл bug_report.json.
 	-add file
 	-Create new file
 	bug_report.json
- 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-	Push the button and comments changes
- 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+	Commit changes (Button)
+18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
 	Click file
 	Edit this file (Button)
-{  "id":"1",
-   "Severity":"Trivial",
-   "Environment":"Samsung S23, Android 13",
-   "Tiktok Button":"Page do not exists",
-   "Expected Result":"redirect to the right page Tiktok",
-   "Actual Result":"net::ERR_UNKNOWN_URL_SCHEME",
-   "Bug started":"Linkolnfett"
-}
- 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 	Commit changes (Button)
- 20. Синхронизировать внешний и локальный репозиторий JSON
-	1 вариант.
-	git status (проверяем что все данные с пк были переданы)
-	git clone https://github.com/Linkolnfett/JSON.git
-	2 вариант. 
+20. Синхронизировать внешний и локальный репозиторий JSON
 	git pull
-Fast-forward
- bug_report.json | 8 ++++++++
- 1 file changed, 8 insertions(+)
- create mode 100644 bug_report.json
 
 XML
- 21. Создать внешний репозиторий c названием XML.
+21. Создать внешний репозиторий c названием XML.
 	(New, Repository name XML,add a readme file +, create )
- 22. Клонировать репозиторий XML на локальный компьютер.
+22. Клонировать репозиторий XML на локальный компьютер.
 	git clone https://github.com/Linkolnfett/XML.git
- 23. Внутри локального XML создать файл “new.xml”.
+23. Внутри локального XML создать файл “new.xml”.
 	touch new.xml
- 24. Добавить файл под гит.
+24. Добавить файл под гит.
 	git add new.xml (or git add . if all repository)
- 25. Закоммитить файл.
+25. Закоммитить файл.
 	git commit -m "Update"
- 26. Отправить файл на внешний GitHub репозиторий.
+26. Отправить файл на внешний GitHub репозиторий.
 	git push
- 27. Отредактировать содержание файла “new.xml” - написать информацию о себе 
+27. Отредактировать содержание файла “new.xml” - написать информацию о себе 
 (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). 
 Всё написать в формате XML.
  	vim new.xml
-	i (button)
-<?xml version="1.0" encoding="windows-1251"?>
-<newXML Number="1" Date="2023-06-17">
-    <Name>Skorik Pavel Sergeevich</Name>
-    <Age>34</Age>
-    <Pets>1</Pets>
-    <Salary_requirement>700-900</Salary_requirement>
-</newXML>
-	ESC 
-	:x
- 28. Отправить изменения на внешний репозиторий.
+28. Отправить изменения на внешний репозиторий.
 	git commit -am "Changes"
 	git push
- 29. Создать файл preferences.xml
+29. Создать файл preferences.xml
 	touch preferences.xml
 	i (button)
- 30. В файл preferences.xml добавить информацию о своих предпочтениях 
+30. В файл preferences.xml добавить информацию о своих предпочтениях 
 (Любимый фильм, любимый сериал, любимая еда, любимое время года, 
 страна которую хотели бы посетить) в формате XML.
 	vim preferences.xml
-	i (button)
-<?xml version="1.0" encoding="windows-1251"?>
-<newXML Number="2" Date="2023-06-17">
-    <Favorite>
-        <movie>Star Wars</movie>
-        <series>Scrubs</series>
-        <food>Okroshka</food>
-        <season>Summer</season>
-    </Favorite>
-    <Country_Id_like_to_visit>China</Country_Id_like_to_visit>
-</newXML>
-	ESC
-	:wq
 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены 
 на курсе в формате XML
-	touch sklls.xml
 	vim sklls.xml
-	i (button)
-<?xml version="1.0" encoding="windows-1251"?>
-<skills Number="3" Date="2023-06-17">
-    <Hard_skills>Basic theory:Forms and methods of QA testing,bug report,
-    SDLC,STLC,HTTP,JSON XML,Postman,Logs,Sniffing,DevTools,VPN,
-    Mobile testing,Terminal,Bash,Basic SQL,Postgres,Redis,Jmeter,
-    Scrum,Python</Hard_skills>
-</skills>
-	ESC
-	:x
- 32. Сделать коммит в одну строку.
+32. Сделать коммит в одну строку.
 	(файлы сначало надо добавить, в любом случае две команды)
 	git add . 
 	git commit -m "2 files"	
@@ -199,22 +87,12 @@ XML
 	-Create new file
 	bug_report.xml
  35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-	Push the button Commit changes
+	Commit changes (Button)
  36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг 
 репорт в формате XML.
 	Click file
 	Edit this file (Button)
-<?xml version="1.0" encoding="windows-1251"?>
-<report Number="4" Date="2023-06-17">
-    <id>1</id>
-    <Severity>Trivial</Severity>
-    <Environment>Samsung S23, Android 13</Environment>
-    <Tiktok>Button Page do not exists</Tiktok>
-    <Expected_Result>redirect to the right page Tiktok</Expected_Result>
-    <Actual_Result>net::ERR_UNKNOWN_URL_SCHEME</Actual_Result>
-    <Bug_started>Linkolnfett</Bug_started>
-</report>
  37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-	Push the button Commit changes
+	Commit changes (Button)
  38. Синхронизировать внешний и локальный репозиторий XML
 	git pull
